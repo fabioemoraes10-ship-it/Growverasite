@@ -22,7 +22,7 @@ export function Footer() {
                 Contato
               </h4>
               <p className="text-[#A1A1AA] text-sm">Fábio Moraes — CEO</p>
-              
+              <a
                 href="mailto:fabio.moraes@growvera.solutions"
                 className="text-[#00FF88] text-sm hover:text-[#00CC6A] transition-colors"
               >
