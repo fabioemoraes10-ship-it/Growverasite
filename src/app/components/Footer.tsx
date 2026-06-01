@@ -17,8 +17,6 @@ export function Footer() {
             <p className="text-[#A1A1AA] text-sm max-w-md leading-relaxed">
               AI-First Venture Builder que transforma conhecimento, processos e oportunidades em crescimento escalável através da metodologia GAIM.
             </p>
-
-            {/* Contato */}
             <div className="mt-6">
               <h4 className="text-white text-sm mb-2" style={{ fontFamily: 'var(--font-headline)' }}>
                 Contato
@@ -32,7 +30,6 @@ export function Footer() {
               </a>
             </div>
           </div>
-
           <div>
             <h4 className="text-white mb-4" style={{ fontFamily: 'var(--font-headline)' }}>
               Soluções
@@ -55,7 +52,6 @@ export function Footer() {
               </li>
             </ul>
           </div>
-
           <div>
             <h4 className="text-white mb-4" style={{ fontFamily: 'var(--font-headline)' }}>
               Empresa
@@ -79,16 +75,12 @@ export function Footer() {
             </ul>
           </div>
         </div>
-
-        {/* Frase Paul Graham */}
         <div className="mt-12 mb-4 text-center px-4">
           <p className="text-[#3D3D3D] text-xs italic leading-relaxed max-w-2xl mx-auto">
-            "Uma pessoa formidável é aquela que parece que vai conseguir o que quer,
-            independentemente dos obstáculos que estejam no caminho."
+            "Uma pessoa formidável é aquela que parece que vai conseguir o que quer, independentemente dos obstáculos que estejam no caminho."
           </p>
           <p className="text-[#2D2D2D] text-xs mt-1">— Paul Graham</p>
         </div>
-
         <div className="mt-8 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[#A1A1AA] text-sm">
             © 2026 Growvera Digital Solutions. Todos os direitos reservados.
@@ -104,7 +96,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  );
-}
   );
 }
